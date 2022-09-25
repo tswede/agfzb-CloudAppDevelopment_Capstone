@@ -6,6 +6,6 @@
     buildpack: python_buildpack
   - name: djangoapp-817Martinsson
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: texasswede817.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
