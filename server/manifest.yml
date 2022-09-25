@@ -1,10 +1,10 @@
   applications:
-  - name: djangoapp
+  - name: djangoapp_Martinsson
     routes:
-      - route: $HOST.$DOMAIN
+      - route: texasswede817.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: djangoapp-817Martinsson
     routes:
       - route: $HOST.$DOMAIN/static
     memory: 128M
